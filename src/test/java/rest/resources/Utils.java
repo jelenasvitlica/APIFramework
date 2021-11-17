@@ -1,4 +1,4 @@
-package resources;
+package rest.resources;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -34,7 +34,7 @@ public class Utils {
     public static String getGlobalValue(String key) throws IOException {
 
         Properties prop = new Properties();
-        FileInputStream fis = new FileInputStream("C:\\Users\\Jelena\\API Framework\\src\\test\\java\\resources\\global.properties");
+        FileInputStream fis = new FileInputStream("C:\\Users\\Jelena\\API Framework\\src\\test\\java\\rest\\resources\\global.properties");
         prop.load(fis);
         return prop.getProperty(key);
 

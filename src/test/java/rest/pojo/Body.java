@@ -1,4 +1,4 @@
-package pojo;
+package rest.pojo;
 
 import java.util.List;
 
@@ -50,7 +50,7 @@ public class Body {
     public location getLocation() {
         return location;
     }
-    public void setLocation(pojo.location location) {
+    public void setLocation(rest.pojo.location location) {
         this.location = location;
     }
     public List<String> getTypes() {

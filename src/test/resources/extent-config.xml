@@ -2,28 +2,24 @@
 <extentreports>
     <configuration>
         <!-- report theme -->
-
         <!-- standard, dark -->
-
         <theme>dark</theme>
+
         <!-- document encoding -->
-
         <!-- defaults to UTF-8 -->
-
         <encoding>UTF-8</encoding>
+
         <!-- protocol for script and stylesheets -->
-
         <!-- defaults to https -->
-
         <protocol>http</protocol>
+
         <!-- title of the document -->
-
         <documentTitle>API Framework Report</documentTitle>
+
         <!-- report name - displayed at top-nav -->
-
         <reportName>API Framework Report</reportName>
-        <!-- location of charts in the test view -->
 
+        <!-- location of charts in the test view -->
         <!-- global date format override -->
         <!-- defaults to yyyy-MM-dd -->
         <dateFormat>yyyy-MM-dd</dateFormat>
@@ -34,10 +30,9 @@
         <timeFormat>HH:mm:ss</timeFormat>
 
         <!-- top, bottom -->
-
         <testViewChartLocation>bottom</testViewChartLocation>
-        <!-- custom javascript -->
 
+        <!-- custom javascript -->
         <scripts>
 
             <![CDATA[

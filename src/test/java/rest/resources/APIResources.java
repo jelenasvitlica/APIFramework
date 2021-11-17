@@ -1,4 +1,4 @@
-package resources;
+package rest.resources;
 //collection of constants or methods
 public enum APIResources {
 

@@ -1,7 +1,7 @@
-package resources;
+package rest.resources;
 
-import pojo.Body;
-import pojo.location;
+import rest.pojo.Body;
+import rest.pojo.location;
 
 import java.util.ArrayList;
 import java.util.List;

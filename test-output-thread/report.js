@@ -1,26 +1,37 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "af8a5966-9905-42e7-9f81-cac335cb7568",
+    "id": "4836308b-bb20-4261-aa71-d5cf6790fe9f",
     "feature": "Validation Place API\u0027s",
-    "scenario": "Verify if delete place functionality is working",
-    "start": 1634827134719,
+    "scenario": "Verify creating issue is working",
+    "start": 1637081171803,
     "group": 1,
     "content": "",
-    "tags": "@deleteplace,@regression,",
-    "end": 1634827138214,
-    "className": "passed"
+    "tags": "@smoke,",
+    "end": 1637081171877,
+    "className": "failed"
   },
   {
-    "id": "98c8c70a-5927-4810-acd3-29a6144719b9",
+    "id": "ecea0a1f-a1bf-4ece-8a19-dd6732912491",
     "feature": "Validation Place API\u0027s",
-    "scenario": "Verify if place is being successfully added using AddPlaceAPI",
-    "start": 1634827127988,
+    "scenario": "Verify if adding attachment is working",
+    "start": 1637081171687,
     "group": 1,
     "content": "",
-    "tags": "@addplace,@regression,",
-    "end": 1634827134711,
-    "className": "passed"
+    "tags": "@smoke,",
+    "end": 1637081171793,
+    "className": "failed"
+  },
+  {
+    "id": "0e41d2af-231d-4170-8e1b-8cb4cfa22468",
+    "feature": "Validation Place API\u0027s",
+    "scenario": "Verify if adding comment is working",
+    "start": 1637081170234,
+    "group": 1,
+    "content": "",
+    "tags": "@smoke,",
+    "end": 1637081171673,
+    "className": "failed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([

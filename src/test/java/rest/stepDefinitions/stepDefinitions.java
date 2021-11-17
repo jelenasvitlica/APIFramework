@@ -1,28 +1,23 @@
-package stepDefinitions;
+package rest.stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import static org.junit.Assert.*;
-import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
+
 import io.restassured.filter.session.SessionFilter;
-import io.restassured.http.ContentType;
 import io.restassured.path.json.*;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 import org.junit.Assert;
-import org.openqa.selenium.json.Json;
-import resources.APIResources;
-import resources.TestDataBuild;
-import resources.Utils;
+import rest.resources.APIResources;
+import rest.resources.TestDataBuild;
+import rest.resources.Utils;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import static io.restassured.RestAssured.*;

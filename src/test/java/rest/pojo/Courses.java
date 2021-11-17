@@ -1,4 +1,4 @@
-package pojo;
+package rest.pojo;
 import java.util.List;
 
 public class Courses {

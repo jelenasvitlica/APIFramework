@@ -1,4 +1,4 @@
-package pojo;
+package rest.pojo;
 
 public class GetCourses {
 

@@ -1,4 +1,4 @@
-package rest.Options;
+package rest.cucumber.Options;
 
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
@@ -12,8 +12,8 @@ import io.cucumber.testng.CucumberOptions;
         },
 
         glue = "rest/stepDefinitions",
-        features = {"src/test/java/rest/features"},
-        tags = "@Smoke"
+        features = {"src/test/resources/features"},
+        tags = "@Regression"
 )
 public final class TestRunner extends AbstractTestNGCucumberTests {
 }
