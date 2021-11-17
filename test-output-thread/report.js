@@ -1,36 +1,36 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "4836308b-bb20-4261-aa71-d5cf6790fe9f",
-    "feature": "Validation Place API\u0027s",
-    "scenario": "Verify creating issue is working",
-    "start": 1637081171803,
-    "group": 1,
-    "content": "",
-    "tags": "@smoke,",
-    "end": 1637081171877,
-    "className": "failed"
-  },
-  {
-    "id": "ecea0a1f-a1bf-4ece-8a19-dd6732912491",
-    "feature": "Validation Place API\u0027s",
-    "scenario": "Verify if adding attachment is working",
-    "start": 1637081171687,
-    "group": 1,
-    "content": "",
-    "tags": "@smoke,",
-    "end": 1637081171793,
-    "className": "failed"
-  },
-  {
-    "id": "0e41d2af-231d-4170-8e1b-8cb4cfa22468",
+    "id": "e0760d05-c990-49f7-bc82-d9539d607113",
     "feature": "Validation Place API\u0027s",
     "scenario": "Verify if adding comment is working",
-    "start": 1637081170234,
+    "start": 1637143835801,
     "group": 1,
     "content": "",
     "tags": "@smoke,",
-    "end": 1637081171673,
+    "end": 1637143837212,
+    "className": "failed"
+  },
+  {
+    "id": "bae34208-c362-4553-a779-6848697a9764",
+    "feature": "Validation Place API\u0027s",
+    "scenario": "Verify creating issue is working",
+    "start": 1637143837350,
+    "group": 1,
+    "content": "",
+    "tags": "@smoke,",
+    "end": 1637143837418,
+    "className": "failed"
+  },
+  {
+    "id": "ea24f3c3-c47c-4889-b0fb-7c0c7c1e966f",
+    "feature": "Validation Place API\u0027s",
+    "scenario": "Verify if adding attachment is working",
+    "start": 1637143837228,
+    "group": 1,
+    "content": "",
+    "tags": "@smoke,",
+    "end": 1637143837342,
     "className": "failed"
   }
 ]);
